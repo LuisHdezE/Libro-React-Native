@@ -1,15 +1,15 @@
-# Proyectos prácticos acumulativos
+# Siete proyectos de una sola aplicación: Grocery Delivery
 
-Los siete proyectos de la Ruta Maestra evolucionan desde lógica TypeScript hasta un sistema móvil completo con prácticas de ingeniería, pruebas y despliegue.
+Los siete proyectos son **hitos incrementales** del mismo producto, no siete aplicaciones independientes.
 
-| Proyecto | Objetivo |
-|---|---|
-| 01 | Biblioteca de lógica de negocio en TypeScript |
-| 02 | Aplicación de tareas y hábitos |
-| 03 | Inventario conectado a API REST |
-| 04 | Refactorización arquitectónica Feature-First/Clean |
-| 05 | Inventario comercial offline-first |
-| 06 | Publicación y operación profesional |
-| 07 | Producto comercial integral y defensa arquitectónica |
+1. **Dominio Grocery**: TypeScript, Money, catálogo, precios, promociones, carrito y pruebas.
+2. **App cliente visual**: Home, categorías, ficha, carrito y navegación fiel a referencia.
+3. **API y compra**: autenticación, persistencia, direcciones, pedidos y checkout validado.
+4. **Arquitectura profesional**: Feature-First, puertos, adaptadores, casos de uso y ADR.
+5. **Experiencias avanzadas**: offline-first, seguimiento, reparto, notificaciones y pagos.
+6. **Calidad y release**: CI/CD, E2E, profiling, capturas comparativas, distribuciones.
+7. **Producto terminado**: aplicación de cliente, operación administrativa, reparto, backend y documentación.
 
-Cada implementación se añadirá únicamente después de desarrollarse y validarse.
+Los entregables de cada etapa deben poder verificarse con pruebas y criterios de aceptación. No publicaremos código de relleno ni simularemos pagos o entregas reales.
+
+Ver [roadmap](../docs/roadmap-proyecto-transversal.md), [SPEC](../docs/producto/SPEC-GROCERY-DELIVERY.md) y [referencia visual](../docs/diseno/REFERENCIA-VISUAL.md).
