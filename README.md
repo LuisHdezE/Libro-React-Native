@@ -31,6 +31,7 @@ Se reproducirán mediante **código propio** la jerarquía, composición, colore
 | [docs/producto/](docs/producto/) | Alcance, actores, reglas y criterios de aceptación |
 | [docs/diseno/](docs/diseno/) | Objetivos de fidelidad con la referencia |
 | [docs/arquitectura/](docs/arquitectura/) | Decisiones de arquitectura |
+| [docs/design-system/CATALOGO.md](docs/design-system/CATALOGO.md) | Catálogo vivo de componentes, convenciones y criterios de aceptación |
 | [docs/roadmap-proyecto-transversal.md](docs/roadmap-proyecto-transversal.md) | Correspondencia entre capítulos y fases |
 
 La estructura final de aplicaciones y servicios aparecerá gradualmente, cuando exista código que la justifique.
