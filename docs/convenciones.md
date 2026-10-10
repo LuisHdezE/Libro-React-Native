@@ -7,5 +7,7 @@
 - Separación explícita entre dominio, aplicación, presentación e infraestructura cuando el proyecto lo requiera.
 - Ejemplos ejecutables y probados, con instrucciones y versiones de dependencias.
 - Buenas prácticas: SOLID pragmático, responsabilidades claras, pruebas, seguridad y accesibilidad.
+- Catálogo de componentes vivo: genéricos sin dominio, componentes de negocio dentro de sus features, composición y props TypeScript.
+- Un componente no se da por terminado hasta tener demo ejecutable, accesibilidad, pruebas y evidencia.
 - Cada carpeta tendrá una explicación del objetivo, comandos de ejecución y criterios de aceptación.
 - No subir secretos, tokens, claves privadas, binarios de firma o datos personales.
