@@ -15,6 +15,7 @@ Todo ejercicio del libro debe referirse a **Grocery Delivery** y tener sentido d
 ## Plan de crecimiento del repositorio
 - Inicio: `ejemplos/`, `ejercicios/`, `proyectos/` y documentación.
 - UI inicial: código Expo/React Native cuando llegue el capítulo 9.
+- Catálogo incremental de UI: tokens y componentes genéricos primero; composiciones de comercio dentro de sus features. Cada componente debe tener ficha, demo, pruebas y trazabilidad; documentación en [catálogo](design-system/CATALOGO.md).
 - Integración: backend y módulos compartidos cuando los contratos lo requieran.
 - Final: arquitectura modular reproducible, con apps cliente/repartidor/admin y API **solo si** el diseño aprobado realmente necesita repositorios o paquetes separados.
 
