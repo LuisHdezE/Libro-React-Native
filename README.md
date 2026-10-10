@@ -1,48 +1,47 @@
 # Ruta Maestra de Aprendizaje de React Native
 ### De fundamentos a arquitecto y desarrollador experto
 
-Repositorio público de **ejemplos, ejercicios y proyectos prácticos** que acompañarán al libro técnico en español.
+Este repositorio público recopilará **todos los ejemplos, ejercicios, pruebas y proyectos** del libro. Su columna vertebral será **Grocery Delivery**, una aplicación de supermercado y entregas que evolucionará desde los primeros ejemplos de TypeScript hasta un producto móvil de extremo a extremo.
 
-El objetivo es aprender React Native desde fundamentos hasta ingeniería de software móvil avanzada, con TypeScript, Expo, Android/iOS, buenas prácticas, arquitectura, seguridad, pruebas, rendimiento, despliegue y mantenimiento.
+> **Estado actual:** planificación, diseño objetivo y estructura de documentación definidos. La aplicación y sus ejemplos aún deben implementarse capítulo a capítulo.
 
-> **Estado actual:** estructura inicial creada. Los ejemplos y proyectos se incorporarán cuando los capítulos estén redactados y el código haya sido ejecutado y probado.
+## Referencia de diseño
 
-## Organización del repositorio
+El autor ha elegido como objetivo visual el póster de la aplicación de supermercado: https://spanish.alibaba.com/product-detail/La-Mejor-Aplicaci%C3%B3n-M%C3%B3vil-para-Entrega-10000042110930.html
 
-| Carpeta | Propósito |
+Se reproducirán mediante **código propio** la jerarquía, composición, colores, componentes y pantallas mostradas, con aprobación visual progresiva. Las pantallas no mostradas se diseñarán coherentemente. No se redistribuirán fotografías, logotipos, creatividades ni código comercial de terceros sin derechos de uso.
+
+## Siete entregas acumulativas
+
+1. Dominio TypeScript: catálogo, precios, carrito, validaciones y tests.
+2. App React Native: Home fiel a referencia, categorías, catálogo, fichas y carrito.
+3. Backend real: API, auth, direcciones, stock, checkout y pedidos.
+4. Arquitectura: Feature-First, dominio, casos de uso, adaptadores y pruebas.
+5. Operación avanzada: offline-first, reparto, seguimiento, pagos y notificaciones.
+6. Calidad: E2E, análisis de rendimiento, fidelidad visual, CI/CD y builds.
+7. Producto completo: cliente, repartidor, administración, backend y documentación.
+
+## Estructura vigente
+
+| Carpeta | Contenido |
 |---|---|
-| [ejemplos/](ejemplos/) | Ejemplos independientes por capítulo |
-| [ejercicios/](ejercicios/) | Actividades y soluciones justificadas |
-| [proyectos/](proyectos/) | Siete proyectos prácticos acumulativos |
-| [docs/](docs/) | Convenciones, decisiones y documentación técnica |
+| [ejemplos/](ejemplos/) | Ejercicios de código por capítulo, todos enfocados en Grocery Delivery |
+| [ejercicios/](ejercicios/) | Enunciados y soluciones |
+| [proyectos/](proyectos/) | Implementaciones de las siete fases |
+| [docs/producto/](docs/producto/) | Alcance, actores, reglas y criterios de aceptación |
+| [docs/diseno/](docs/diseno/) | Objetivos de fidelidad con la referencia |
+| [docs/arquitectura/](docs/arquitectura/) | Decisiones de arquitectura |
+| [docs/roadmap-proyecto-transversal.md](docs/roadmap-proyecto-transversal.md) | Correspondencia entre capítulos y fases |
 
-## Ruta práctica
+La estructura final de aplicaciones y servicios aparecerá gradualmente, cuando exista código que la justifique.
 
-1. Biblioteca TypeScript de lógica de negocio.
-2. Aplicación móvil de tareas y hábitos.
-3. Inventario conectado a una API REST.
-4. Refactorización a Feature-First y Clean Architecture pragmática.
-5. Inventario comercial offline-first.
-6. Publicación, rendimiento y operación profesional.
-7. Producto comercial completo con defensa de arquitectura.
+## Principios de ingeniería
 
-## Principios
+- React Native y TypeScript estrictos; comenzar con Expo.
+- Composición, hooks y módulos Feature-First; Clean Architecture **cuando esté justificada**, no por plantilla.
+- Separación entre lógica de dominio, integración de APIs, UI, persistencia y permisos.
+- Backend como autoridad de precios, existencias, pagos y estados de pedidos.
+- Pruebas, accesibilidad, seguridad, rendimiento y CI/CD.
+- Publicación solo de código reproducible, con dependencias explícitas y sin credenciales.
 
-- TypeScript estricto; evitar `any` sin razones fundamentadas.
-- Componentes y hooks idiomáticos de React, con una arquitectura justificada por necesidades reales.
-- Separar dominio, casos de uso, presentación e infraestructura cuando corresponda.
-- Explicar alternativas, compromisos y razones de diseño.
-- Cada ejemplo debe incluir instrucciones, versiones, pruebas y criterios de aceptación.
-- Ningún secreto ni credencial se publicará en el repositorio.
-
-## Cómo utilizar este repositorio
-
-Con cada nuevo capítulo se incorporarán los ejemplos y ejercicios correspondientes. En los proyectos prácticos se registrarán sus hitos, dependencias y pruebas. La organización irá evolucionando junto con el contenido del libro.
-
-El manuscrito y su tablero editorial se administran separadamente en Google Drive.
-
-## Estado editorial
-
-**7 partes · 56 capítulos · 7 proyectos prácticos · 14 anexos.**
-
-Las contribuciones y la licencia de reutilización de código se definirán antes de abrir el flujo de contribuciones de terceros.
+**Nota:** un repositorio público no otorga automáticamente licencia para copiar recursos o código ajenos. La licencia de reutilización del código de este repositorio se establecerá antes de abrir contribuciones o distribución derivada.
