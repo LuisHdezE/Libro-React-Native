@@ -1,5 +1,7 @@
-# Ejercicios del libro
+# Ejercicios progresivos de Grocery Delivery
 
-Aquí se organizarán ejercicios propuestos por capítulo. Las soluciones, cuando estén listas, se mantendrán separadas de los enunciados para favorecer la práctica autónoma.
+Todos los ejercicios contribuirán a la app principal. El material evoluciona **del lenguaje y la lógica de negocio al diseño móvil, API, operaciones y publicación**.
 
-Formato previsto: `capitulo-XX/enunciados` y `capitulo-XX/soluciones`.
+Los enunciados se guardarán por capítulo (`capitulo-XX`). Las soluciones estarán separadas para promover el aprendizaje y tendrán criterios de aceptación y tests. Las versiones de los ejemplos y los resultados del libro deberán mantenerse sincronizados.
+
+**Ejemplo de continuidad:** primero sumar correctamente productos al carrito, luego modelar `CartItem`, después convertirlo en componente visual, persistirlo, integrarlo con la API, asegurar consistencia de checkout y verificarlo con E2E.
