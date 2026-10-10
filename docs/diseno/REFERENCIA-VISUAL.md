@@ -28,4 +28,4 @@ La imagen aportada por el autor se ha archivado en el documento privado de espec
 ## Restricciones
 No reutilizar código de terceros ni fotografías, íconos, marcas y creatividades sin licencia. La semejanza visual solicitada se ejecutará con assets propios o licenciados. Los nombres de botones diminutos y las mediciones exactas no se infieren de una imagen borrosa.
 
-**Estado:** referencia vinculada, análisis preliminar completado; kit de diseño y pantallas faltantes pendientes.
+**Estado (2026-10-10):** enlace vinculado. El autor confirma que la ficha de Alibaba contiene más imágenes de la aplicación que el póster compartido. No se han podido recuperar y verificar todavía todas esas imágenes porque la apertura automatizada devuelve la página de verificación del sitio. **Paso prioritario:** inspeccionar toda la galería original, catalogar cada imagen por pantalla/estado y tomar sus medidas antes de pedir capturas complementarias. No usar diseños de aplicaciones ajenas como sustitutos del referente.
